@@ -7,9 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        "open-sans": ["Open Sans", "sans-serif"]
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        custom: {
+          sage: "#3E918D",
+          white: "#DEDEDE",
+        },
       },
     },
   },
