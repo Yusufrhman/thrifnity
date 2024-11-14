@@ -4,7 +4,7 @@ import CustomInput from "./CustomInput";
 
 export default function Auth({ isLogin }) {
   return (
-    <section className="bg-white w-full px-4 py-6 max-w-[30rem] flex flex-col gap-3">
+    <section className="bg-white w-full px-4 py-6 max-w-[30rem] flex flex-col gap-3 shadow-lg rounded-2xl">
       <form action="" className="flex flex-col gap-3">
         <h1 className="text-3xl font-bold tracking-wide font-open-sans w-full py-3 border-b border-black">
           {isLogin ? "Login" : "Register"}
@@ -33,16 +33,16 @@ export default function Auth({ isLogin }) {
             className={"border-neutral-700"}
           />
         )}
-        <MainButton type="submit" className={"rounded-md"}>
+        <MainButton type="submit" className={"rounded-md w-full"}>
           {isLogin ? "Login" : "Register"}
         </MainButton>
       </form>
       <p className="text-center text-sm">Atau</p>
       <section className="flex items-center gap-5">
-        <MainButton type="button" className={"rounded-md"}>
+        <MainButton type="button" className={"rounded-md w-full"}>
           Google
         </MainButton>
-        <MainButton type="button" className={"rounded-md"}>
+        <MainButton type="button" className={"rounded-md w-full"}>
           Facebook
         </MainButton>
       </section>

@@ -9,12 +9,12 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        "open-sans": ["Open Sans", "sans-serif"]
+        "open-sans": ["Open Sans", "sans-serif"],
       },
       colors: {
         custom: {
           sage: "#3E918D",
-          white: "#DEDEDE",
+          white: "#FBFBFB",
         },
       },
     },
